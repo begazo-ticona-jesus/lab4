@@ -28,10 +28,11 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueGrey,
-        title: const Text('Calculator'),
+        backgroundColor: const Color.fromRGBO(235, 127, 127, 0.753),
+        title: const Text('Calculadora'),
       ),
-      body: Calculator(),
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+      body: const Calculator(),
     );
   }
 }
